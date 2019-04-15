@@ -1,0 +1,7 @@
+[
+  "tests/test_admin.py::TestAdmin::test_admin_menu",
+  "tests/test_admin.py::TestAdmin::test_admin_info",
+  "tests/test_admin.py::TestAdmin::test_admin_translation",
+  "tests/test_news.py::TestNews::test_news_browse",
+  "tests/test_news.py::TestNews::test_news_latest"
+]

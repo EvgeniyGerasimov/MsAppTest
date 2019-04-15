@@ -1,0 +1,17 @@
+#ignore venv
+venv1/
+/venv1/
+./venv1/
+#ignore ide files
+ *.idea/misc.xm
+*.idea/modules.xml
+ *.idea/php-test-framework.xml
+ *.idea/php.xml
+ *.idea/vcs.xml
+*.idea/workspace.xml
+*.idea/
+/.idea/
+*.pyc
+/source/*.pyc
+/source/*.png
+.pytest_cache/
