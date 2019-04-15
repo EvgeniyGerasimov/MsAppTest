@@ -4,7 +4,7 @@ import requests
 class Methods:
 
     headers = {'Content-Type': 'application/json'}
-    base_url = 'http://api-v1.motorsport.com'
+    base_url = 'http://api-s-v1.motorsport.com'
     @staticmethod
     def get(url):
         result = requests.get(Methods.base_url + url,
