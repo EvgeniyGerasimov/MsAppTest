@@ -12,4 +12,4 @@ WORKDIR /project
 RUN pip3 install -r requirements.txt
 
 #run tests on threads
-CMD ["pytest", "-nauto"]
+CMD ["pytest", "-n4"]
