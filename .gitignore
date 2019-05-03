@@ -1,7 +1,7 @@
 #ignore venv
-venv1/
-/venv1/
-./venv1/
+venv/
+/venv/
+./venv/
 #ignore ide files
  *.idea/misc.xm
 *.idea/modules.xml

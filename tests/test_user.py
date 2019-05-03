@@ -1,11 +1,12 @@
 from data.methods import Methods
-from data import body
+from data import request_body
+from jsonschema import validate
 
 
 class TestUser:
 
     def test_user_dashboard(self, authtoken):
-        response = Methods.post('/user/dashboard/', body.USER_DASHBOARD, authtoken)
+        response = Methods.post('/user/dashboard/', request_body.USER_DASHBOARD, authtoken)
         assert 200 == response.status_code
 
     def test_user_favorites(self, authtoken):
@@ -18,11 +19,12 @@ class TestUser:
         assert 200 == response.status_code
 
     def test_user_edition_post(self):
-        response = Methods.post('/user/edition/', body.USER_EDITION, Methods.headers)
+        response = Methods.post('/user/edition/', request_body.USER_EDITION, Methods.headers)
         assert 200 == response.status_code
 
     def test_user_notification_settings(self):
-        response = Methods.get('/user/notification/settings/', Methods.headers, params=body.USER_NOTIFICATION_SETTINGS)
+        response = Methods.get('/user/notification/settings/', Methods.headers,
+                               params=request_body.USER_NOTIFICATION_SETTINGS)
         assert 200 == response.status_code
 
     def test_user_notification_registratin(self, authtoken):
@@ -32,7 +34,7 @@ class TestUser:
         assert 200 == response.status_code
 
     def test_user_notification_series(self):
-        response = Methods.post('/user/notification/series/', body.USER_NOTIFICATION_SERIES, Methods.headers)
+        response = Methods.post('/user/notification/series/', request_body.USER_NOTIFICATION_SERIES, Methods.headers)
         assert 200 == response.status_code
 
     def test_user_notification_refresh(self, tokens):
