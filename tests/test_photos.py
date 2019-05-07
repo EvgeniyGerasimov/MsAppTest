@@ -1,7 +1,7 @@
 from data.methods import Methods
 from data import request_body
 from jsonschema import validate
-from  data.JSON_Shemas import photo_latest_shema,photos_browse_shema,photo_detail_shema, photos_signature_shema
+from  data.json_shemas import photo_latest_shema,photos_browse_shema,photo_detail_shema, photos_signature_shema
 
 
 class TestPhotos:

@@ -1,7 +1,7 @@
 from data.methods import Methods
 from data import request_body
 from  jsonschema import validate
-from data.JSON_Shemas import promotion_author_tool_shema, promotion_feature_strip_shema, promotion_top_block_shema
+from data.json_shemas import promotion_author_tool_shema, promotion_feature_strip_shema, promotion_top_block_shema
 
 
 class TestPromotion:

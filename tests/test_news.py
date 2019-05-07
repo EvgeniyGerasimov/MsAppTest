@@ -1,7 +1,7 @@
 from data.methods import Methods
 from data import request_body
 from jsonschema import validate
-from data.JSON_Shemas import news_browse_shema, news_latest_shema, news_detail_shema
+from data.json_shemas import news_browse_shema, news_latest_shema, news_detail_shema
 
 
 class TestNews:

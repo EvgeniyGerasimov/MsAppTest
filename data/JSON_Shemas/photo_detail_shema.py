@@ -1,5 +1,4 @@
 PHOTO_DETAIL_SHEMA = {
-  "$schema": "http://json-schema.org/draft-04/schema#",
   
   "properties": {
     "data": {
@@ -307,9 +306,6 @@ PHOTO_DETAIL_SHEMA = {
                     "has_results": {
                       
                     },
-                    "result_race_id": {
-                      
-                    },
                     "creator_user_id": {
                       
                     },
@@ -317,9 +313,6 @@ PHOTO_DETAIL_SHEMA = {
                       
                     },
                     "localtime": {
-                      
-                    },
-                    "position": {
                       
                     },
                     "alternatives": {
@@ -435,11 +428,9 @@ PHOTO_DETAIL_SHEMA = {
                     "tickets_url",
                     "store_link",
                     "has_results",
-                    "result_race_id",
                     "creator_user_id",
                     "has_race_sub_events",
                     "localtime",
-                    "position",
                     "alternatives",
                     "championship",
                     "race_type",
@@ -599,9 +590,6 @@ PHOTO_DETAIL_SHEMA = {
                         "has_results": {
                           
                         },
-                        "result_race_id": {
-                          
-                        },
                         "creator_user_id": {
                           
                         },
@@ -609,9 +597,6 @@ PHOTO_DETAIL_SHEMA = {
                           
                         },
                         "localtime": {
-                          
-                        },
-                        "position": {
                           
                         }
                       },
@@ -631,11 +616,9 @@ PHOTO_DETAIL_SHEMA = {
                         "tickets_url",
                         "store_link",
                         "has_results",
-                        "result_race_id",
                         "creator_user_id",
                         "has_race_sub_events",
-                        "localtime",
-                        "position"
+                        "localtime"
                       ]
                     }
                   },

@@ -1,7 +1,7 @@
 from data.methods import Methods
 from data import request_body
 from jsonschema import validate
-from data.JSON_Shemas import event_detail_shema, event_strip_shema, event_browse_shema, event_latest_shema, event_best_shema
+from data.json_shemas import event_detail_shema, event_strip_shema, event_browse_shema, event_latest_shema, event_best_shema
 
 
 class TestEvent:

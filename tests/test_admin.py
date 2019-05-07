@@ -1,6 +1,6 @@
 from data.methods import Methods
 from jsonschema import validate
-from data.JSON_Shemas import admin_shemas, admin_menu_shema, admin_translation_shema
+from data.json_shemas import admin_shemas, admin_menu_shema, admin_translation_shema
 
 
 class TestAdmin:

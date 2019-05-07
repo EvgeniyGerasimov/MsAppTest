@@ -1,5 +1,4 @@
-PHOTOS_BROWSE_SHEMA ={
- 
+PHOTOS_BROWSE_SHEMA = {
   
   "properties": {
     "data": {
@@ -245,9 +244,6 @@ PHOTOS_BROWSE_SHEMA ={
                     "has_results": {
                       
                     },
-                    "result_race_id": {
-                      
-                    },
                     "creator_user_id": {
                       
                     },
@@ -255,9 +251,6 @@ PHOTOS_BROWSE_SHEMA ={
                       
                     },
                     "localtime": {
-                      
-                    },
-                    "position": {
                       
                     },
                     "alternatives": {
@@ -366,11 +359,9 @@ PHOTOS_BROWSE_SHEMA ={
                     "tickets_url",
                     "store_link",
                     "has_results",
-                    "result_race_id",
                     "creator_user_id",
                     "has_race_sub_events",
                     "localtime",
-                    "position",
                     "alternatives",
                     "championship",
                     "race_type",

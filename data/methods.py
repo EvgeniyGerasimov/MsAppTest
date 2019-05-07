@@ -6,7 +6,7 @@ class Methods:
     server = os.getenv('SERVER', "")
     headers = {'Content-Type': 'application/json', 'location': 'ua'}
     base_url = 'http://api' + server + '-v1.motorsport.com'
-    # base_url = 'http://api-s-v1.motorsport.com'
+    # base_url = 'http://api-v1.motorsport.com'
 
     @staticmethod
     def get(url, headers, params=None):
